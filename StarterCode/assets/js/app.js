@@ -115,7 +115,7 @@ d3.csv('./assets/data/data.csv').then(function (incomeData) {
       toolTip.hide(incomeData);
     });
 
- // Labelling the axes
+ // Labelling the axis
 
   chartGroup.append("text")
     .attr("transform", "rotate(-90)")
